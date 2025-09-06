@@ -1,0 +1,560 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*nav area*/
+nav {
+    background: #1d4b75;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    font-weight: bold;
+}
+
+.logo {
+    padding-left: 80px;
+    
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-top: 5px;
+}
+
+.logo p {
+    color: #58afff;
+    font-size: 20px;
+    line-height: 58px;
+    font-weight: bold;
+    float: left;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 58px;
+    margin: 0 5px;
+}
+
+nav ul a {
+    color: #fff;
+    font-size: 15px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+ul a {
+    padding: 10px;
+}
+
+a:hover {
+    background-color: #003047;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 55px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/*main area*/
+
+.content {
+    
+    padding: 60px 20px;
+}
+
+.tips {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+nav {
+    background-color: #1d4b75;
+    width: 100%;
+    height: 70px;
+}
+
+.header-box {
+    padding: 5px;
+    margin: 0 30px 0 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icon-area {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-top: 4px;
+}
+
+.icon-button {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-button p {
+    font-weight: bold;
+    font-size: 15px;
+    color: #58afff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.icon-area a{
+    text-decoration: none;
+}
+
+.icon-area img {
+    width: 50px;
+    height: 50px;
+}
+
+.nav-links {
+    margin-top: 17px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 10px 0 10px;
+    padding: 10px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.nav-links a:hover {
+    background-color: #003047;
+}
+
+.bookmarks a{
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.bookmarks a:hover {
+    color: #fff;
+    background-color: #112c44;
+    border-radius: 25px;
+    transition: all 0.5s ease-in-out;
+}
+
+.bookmarks-container {
+    display: flex;
+    justify-content: center;
+}
+
+.bookmarks {
+    background-color: #1d4b75;
+    width: 70%;
+    height: 130px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    color: #62b3ff;
+}
+
+.bookmarks h2 {
+    margin: 0 0 20px 0;
+}
+
+
+.tips {
+    padding: 0px 30px 30px 30px;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.tips h1, p{
+    margin-bottom: 15px;
+}
+
+
+.tips li{
+    list-style-type: none;
+    line-height: 25px;
+    margin-left: 30px;
+}
+
+.tips p, li{
+    color: #fff;
+}
+
+.tips h1 {
+    padding-top: 50px;
+    color: #62b3ff
+}
+
+#Attraction {
+    font-size: 2rem;
+}
+
+#Attraction ul li {
+    font-size: 1.2rem;
+}
+
+/*footer area*/
+
+footer {
+    background-image: url('media/footer\ bg.jpg');
+    max-height: 462px;
+}
+
+.footerContainer {
+    padding: 30px;
+}
+
+.hl {
+    width: 2px;
+    background-color: #002133;
+}
+
+.vl {
+    height: 2px;
+    background-color: #002133;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.bottom {
+    text-align: center;
+}
+
+.area1, .area2, .area3, .area4{
+    padding: 3px;
+}
+
+.area1 p {
+    color: #fff;
+    line-height: 30px;
+}
+
+.area1 img{
+    height: 120px;
+    float: left;
+}
+
+.area2 {
+    color: #fff;
+}
+
+
+.area3 ul li{
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+}
+
+.area3 a{
+    color: #fff;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 30px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.area3 a:hover{
+    border-radius: 20px;
+    background-color: #002133;
+}
+
+.area4 {
+    margin-top: 30px;
+    height: 180px;
+    color: #fff;
+}
+
+.area4 a, p{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-socmed-icons {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+    
+.footer-icon {
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: 0.5s;
+}
+
+.footer-icon:hover {
+    font-size: 20px;
+}
+
+@media (max-width: 1068px) {
+    .bookmarks {
+        width: 85%;
+    }
+}
+
+@media (max-width: 952px){
+
+    /*nav area*/
+
+    nav {
+        position: fixed;
+    }
+
+    .logo {
+        padding-left: 30px;
+    }
+
+    .logo p {
+        font-size: 15px;
+        padding-left: 50px;
+        padding-left: 0px;
+    }
+
+    .logo img {
+        height: 40px;
+        width: 40px;
+        margin-top: 10px;
+    }
+
+    nav ul li a {
+        font-size: 13px;
+    }
+
+    /*body area*/
+
+    .bookmarks {
+        width: 80%;
+        height: 100px;
+    }
+
+    .bookmarks h2 {
+        margin-bottom: 5px;
+    }
+    
+    .bookmarks-container a{
+        font-size: 14px;
+    }
+
+    .tips {
+        margin: 10px;
+        font-size: 14px;
+    }
+
+    /*footer area*/
+
+    .area1 img {
+        width: 200px;
+        height: 96px;
+    }
+
+    .area1 p {
+        font-size: 14px;
+    }
+
+    .area2 P {
+        font-size: 14px;
+    }
+
+    .area3 {
+        display: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .area3 ul, .area3 ul li  a{
+        display: none;
+    }
+
+    .area4 {
+        padding-top: 20px;
+    }
+
+    .area4 p, a {
+        font-size: 14px;
+    }
+
+    .vl, .hl {
+        display: none;
+    }
+    
+    .footer-socmed-icons {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 840px){
+
+    .bookmarks {
+        width: 100%;
+    }
+
+    .bookmarks a {
+        padding: 5px;
+    }
+
+    /*footer area*/
+
+    .footerContainer {
+        padding: 10px 10px 0 10px;
+    }
+
+    .top {
+        flex-direction: column;
+    }
+
+    .area1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .area1 img {
+        width: 160px;
+        height: 76px;
+    }
+
+    .area1 p {
+        text-align: center;
+    }
+
+    .area2 {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .area3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .area3 ul li {
+        margin-top: 20px;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 600px){
+
+    /*nav area*/
+
+    .checkbtn {
+        display: block;
+    }
+
+    nav {
+        position: fixed;
+    }
+
+    nav ul {
+        margin-top: 10px;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #2c3e50;
+        top: 50px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    nav ul a {
+        display: block;
+    }
+
+    nav ul li:hover {
+        display: block;
+        background-color: #003047;
+    }
+
+    nav ul li a {
+        font-size: 15px;
+    }
+
+    a:hover {
+        background: none;
+    }
+
+    #check:checked ~ ul {
+        left: 0;    
+    }
+
+    /*body area*/
+
+    .content {
+        padding: 80px 15px 15px;
+    }
+
+    .bookmarks {
+        display: none;
+    }
+
+    .tips {
+        padding: 0;
+        margin: 0;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .tips ul li {
+        font-size: 12px;
+        line-height: 17px;
+        list-style-type: disc;
+    }
+
+    /*footer area*/
+
+    .area3, .area2 {
+        display: none;
+    }
+
+    .vl {
+        display: none;
+    }
+
+}

@@ -1,0 +1,533 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*nav area*/
+nav {
+    background: #1d4b75;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    font-weight: bold;
+}
+
+.logo {
+    padding-left: 80px;
+    
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-top: 5px;
+}
+
+.logo p {
+    color: #58afff;
+    font-size: 20px;
+    line-height: 58px;
+    font-weight: bold;
+    float: left;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 58px;
+    margin: 0 5px;
+}
+
+nav ul a {
+    color: #fff;
+    font-size: 15px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+ul a {
+    padding: 10px;
+}
+
+nav ul a:hover {
+    background-color: #003047;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 55px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/*main area*/
+
+.content {
+    padding: 140px 150px 150px 150px;
+}
+
+.content h1, p{
+    color: #62b3ff;
+}
+
+.contactHeader p {
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 0;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.contactHeader h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.contactinfo a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.borderBox {
+    border: solid 2px #3c6f9e;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.borderBox h2 {
+    text-align: center;
+}
+
+.box1 {
+    width: 60%;
+    padding: 20px 20px 20px 35px;
+}
+
+.box2  {
+    width: 40%;
+    background-color: #3c6f9e;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 20px;
+}   
+
+.box1 h2{
+    padding-bottom: 30px;
+    color: #62b3ff;
+    font-size: 2rem;
+}
+
+.box2 h2, p, i{
+    color: #fff;
+}
+
+.box2 p {
+    font-size: 1.3em;
+}
+
+.box2 h2 {
+    font-size: 2rem;
+}
+
+.contactInformations{
+    padding-top: 20px;
+}
+
+.contactInformations table tr th{
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.contactInformations table tr td{
+    color: #fff;
+}
+
+.contactInformations a {
+    color: #fff;
+}
+
+input{
+    border-radius: 5px;
+    border: solid 1.5px #62b3ff;
+    width: 95%;
+    height: 30px;
+    margin-bottom: 15px;
+    padding: 5px;
+
+}
+
+textarea{
+    border-radius: 5px;
+    border: solid 1.5px #62b3ff;
+    width: 95%;
+    height: 100px;
+    padding: 5px;
+    resize: none;
+}
+
+#submitButton {
+    margin-top: 10px;
+    width: 100px;
+    background-color: #62b3ff;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+}
+
+#submitButton:hover{
+    background-color: #1d4b75;
+    transition: all 0.3s ease-in-out;
+}
+
+/*footer area*/
+
+footer {
+    background-image: url('media/footer bg.jpg');
+    max-height: 462px;
+}
+
+.footerContainer {
+    padding: 30px;
+}
+
+.hl {
+    width: 2px;
+    background-color: #002133;
+}
+
+.vl {
+    height: 2px;
+    background-color: #002133;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.bottom {
+    text-align: center;
+}
+
+.area1, .area2, .area3, .area4{
+    padding: 3px;
+}
+
+.area1 p {
+    color: #fff;
+    line-height: 30px;
+}
+
+.area1 img{
+    height: 120px;
+    float: left;
+}
+
+.area2 {
+    color: #fff;
+}
+
+.area3 ul{
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+}
+
+.area3 a{
+    color: #fff;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 30px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.area3 a:hover{
+    border-radius: 20px;
+    background-color: #002133;
+}
+
+.area4 {
+    margin-top: 30px;
+    height: 180px;
+    color: #fff;
+}
+
+.area4 a, p{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-socmed-icons {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+    
+.footer-icon {
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: 0.5s;
+}
+
+.footer-icon:hover {
+    font-size: 20px;
+}
+
+@media (max-width: 952px){
+
+    /*nav area*/
+
+    nav {
+        position: fixed;
+    }
+
+    .logo {
+        padding-left: 30px;
+    }
+
+    .logo p {
+        font-size: 15px;
+        padding-left: 50px;
+        padding-left: 0px;
+    }
+
+    .logo img {
+        height: 40px;
+        width: 40px;
+        margin-top: 10px;
+    }
+
+    nav ul li a {
+        font-size: 13px;
+    }
+
+    /*body area*/
+
+    .content {
+        padding: 80px;
+        font-size: 14px;
+    }
+
+    .contactHeader p{
+        font-size: 15px;
+    }
+
+    .borderBox h2{
+        font-size: 20px;
+    }
+    
+    .box2 p{
+        font-size: 15px;
+    }
+
+    .box2 a {
+        font-size: 15px;
+    }
+
+    /*footer area*/
+
+    .area1 img {
+        width: 200px;
+        height: 96px;
+    }
+
+    .area1 p {
+        font-size: 14px;
+    }
+
+    .area2 P {
+        font-size: 14px;
+    }
+
+    .area3 {
+        display: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .area3 ul, .area3 ul li  a{
+        display: none;
+    }
+
+    .area4 {
+        padding-top: 20px;
+    }
+
+    .area4 p, a {
+        font-size: 14px;
+    }
+
+    .vl, .hl {
+        display: none;
+    }
+    
+    .footer-socmed-icons {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 840px){
+
+    /*footer area*/
+
+    .footerContainer {
+        padding: 10px 10px 0 10px;
+    }
+
+    .top {
+        flex-direction: column;
+    }
+
+    .area1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .area1 img {
+        width: 160px;
+        height: 76px;
+    }
+
+    .area1 p {
+        text-align: center;
+    }
+
+    .area2 {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .area3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .area3 ul li {
+        margin-top: 20px;
+        display: inline-block;
+    }
+
+    /*main area*/
+
+    .content {
+        padding: 80px 50px 50px 50px;
+    }
+
+}
+
+@media (max-width: 600px){
+
+    /*nav area*/
+
+    .checkbtn {
+        display: block;
+    }
+
+    nav {
+        position: fixed;
+    }
+
+    ul {
+        margin-top: 10px;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #2c3e50;
+        top: 50px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    nav ul a {
+        display: block;
+    }
+
+    nav ul li:hover {
+        display: block;
+        background-color: #003047;
+    }
+
+    nav ul li a {
+        font-size: 15px;
+    }
+
+    a:hover {
+        background: none;
+    }
+
+    #check:checked ~ ul {
+        left: 0;    
+    }
+
+    .h-captcha {
+        size: 10px;
+    }
+
+    /*body area*/
+
+    .content {
+        padding: 70px 30px 30px 30px;
+    }
+    
+    .borderBox {
+        flex-direction: column;
+    }
+
+    .box1, .box2 {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .box1 {
+        padding: 20px;
+    }
+
+    .box2 {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 15px;
+    }
+
+    /*footer area*/
+
+    .area3, .area2 {
+        display: none;
+    }
+
+    .vl {
+        display: none;
+    }
+
+}
